@@ -16,11 +16,13 @@ The purpose of this document is to help you set up an IaC pipeline to deploy GCP
    1. Don't forget, you need project creator in your org and service usage admin 
 5. Open cloud shell 
    1. Run the following command:
-```bash
-git clone https://github.com/john-hurringjr/build-trigger-bootstrap.git
-```
+    ```bash
+    git clone https://github.com/john-hurringjr/build-trigger-bootstrap.git
+    ```
 6. Connect to the projectbootstrap folder 
-   1. cd build-trigger-bootstrap/projectbootstrap 
+    ```bash
+    cd build-trigger-bootstrap/projectbootstrap 
+    ```
 7. For the variables in the projectbootstrap folder Terraform:
    1. unique_id 
       1. This should be a short (6 characters or less) unique identifier you’ll use in your org. For example, jchtst 
