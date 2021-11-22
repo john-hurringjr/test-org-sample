@@ -89,7 +89,7 @@ The purpose of this document is to help you set up an IaC pipeline to deploy GCP
     5. After validating the push-and-plan ran successfully, navigate to your GitHub and submit a pull request (don’t forget to comment “/gcbrun”!)
     6. Validate it deploys successfully 
     7. Merge your pull request 
-16. Repeat step 14 for the rest of the folders
+16. Repeat step above (which outlined going through 01 Folder) for the rest of the folders
 
 # New Pipeline
 To create a new pipeline complete the following:
